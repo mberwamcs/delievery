@@ -1,0 +1,28 @@
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+        /*body { background-color: aqua;}*/
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 500px) {
+  body{margin: 2% 0%; text-align: ;} 
+    #selection {text-align: center;}
+    #startday {float: left; margin-right: 5%; margin-left: 20%;}
+    label{width: 90px; display: inline-block;}
+    input{margin: 3px;}
+    #endday {float:right; margin-right: 20%;}
+    #endda, label{width: 150px; display: inline-block;}
+    #search {text-align: center;}
+}
