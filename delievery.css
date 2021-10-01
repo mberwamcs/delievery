@@ -14,7 +14,7 @@
 
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 300px) {
     body {width: 100% background-color: aqua;}
     form {font-size: 20%;}
     
