@@ -14,13 +14,13 @@
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
     body {width: 100% background-color: aqua;}
     form {font-size: 20%;}
     
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   body{margin: 2% 10%; text-align: ;} 
     #selection {text-align: center;}
     #startday {float: left; margin-right: 5%; margin-left: 2%;}
