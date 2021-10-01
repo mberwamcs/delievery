@@ -1,5 +1,4 @@
 
-/* Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
@@ -16,13 +15,19 @@
 
 }
 
+@media only screen and (max-width: 330px) {
+    body {width: 100% background-color: aqua;}
+    form {font-size: 20%;}
+    
+}
+
 @media only screen and (min-width: 500px) {
-  body{margin: 2% 0%; text-align: ;} 
+  body{margin: 2% 10%; text-align: ;} 
     #selection {text-align: center;}
-    #startday {float: left; margin-right: 5%; margin-left: 20%;}
+    #startday {float: left; margin-right: 5%; margin-left: 2%;}
     label{width: 90px; display: inline-block;}
     input{margin: 3px;}
-    #endday {float:right; margin-right: 20%;}
+    #endday {; margin-right: %;}
     #endda, label{width: 150px; display: inline-block;}
     #search {text-align: center;}
 }
