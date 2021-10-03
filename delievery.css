@@ -1,3 +1,6 @@
+
+header {width 100%; text-align: center}
+/* Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
@@ -14,14 +17,14 @@
 
 }
 
-@media only screen and (max-width: 800px) {
-    body {width: 100% background-color: aqua;}
-    form {font-size: 20%;}
+/*@media only screen and (max-width: 800px) {
+    body {width: 100% background-color: aqua; justify-content: center;}
+    form {font-size:;}
     
 }
 
-@media only screen and (min-width: 1000px) {
-  body{margin: 2% 10%; text-align: ;} 
+@media only screen and (min-width: 1000px) {*/
+  body{margin: 2% 10%; ;} 
     #selection {text-align: center;}
     #startday {float: left; margin-right: 5%; margin-left: 2%;}
     label{width: 90px; display: inline-block;}
@@ -29,4 +32,10 @@
     #endday {; margin-right: %;}
     #endda, label{width: 150px; display: inline-block;}
     #search {text-align: center;}
-}
+    #selection {float: right;}
+    #newday {display: none;}
+    #startday {display: block;}
+    #endday {display: none;}
+    #paystub {display: none;} 
+    #errorM {display: none;} 
+    #date-infor {float: right;}
