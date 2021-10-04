@@ -2,8 +2,27 @@
 var $ = function(id){
 		return document.getElementById(id);
 	};
-//document.write("Javascript is in seaction");
-function selection() {
+//moble screen ****************;
+function newDay(){
+     $("startday").style.display = "block";
+     $("newdaybtn").style.display = "none";
+     $("enddaybtn").style.display = "none";
+     $("editbtn").style.display = "none";
+}
+function endDay(){
+     $("endday").style.display = "block";
+     $("newdaybtn").style.display = "none";
+     $("enddaybtn").style.display = "none";
+     $("editbtn").style.display = "none";
+}
+function editInfor(){
+    $("startday").style.display = "block";
+     $("endday").style.display = "block";
+     $("newdaybtn").style.display = "none";
+     $("enddaybtn").style.display = "none";
+     $("editbtn").style.display = "none";
+}
+/*function selection() {
      var toDo = $("activity").value;
      //var empt = $("activity").value;
      //var startDay = $("startofday").value;
@@ -31,10 +50,10 @@ function selection() {
         $("saveBtn").value = "MAKE A VALID SELECTION";
         $("saveBtn").disabled = true;
         $("saveBtn").style.textAlign = "center";
-        $("saveBtn").style.width = "100%";*/
+        $("saveBtn").style.width = "100%";
     }
 }
-function totalMiles(){
+/*function totalMiles(){
     var startMiles = $("startmiles").value;
     var endtMiles = $("endmiles").value;
     var usedMiles = (endtMiles - startMiles);
@@ -48,10 +67,12 @@ function totalMiles(){
     
     return;
 }
-
-/*window.onload = function(){
-    $("saveBtn").onclick = totalMiles;
-    $("goahead").onclick = selection;
-}*/
-$("saveBtn").onclick = totalMiles;
-$("goahead").onclick = selection;
+*/
+window.onload = function(){
+    $("newdaybtn").onclick = newDay;
+    $("enddaybtn").onclick = endDay;
+    $("editbtn").onclick = editInfor;
+  /*  $("goahead").onclick = selection;*/
+}
+/*$("saveBtn").onclick = totalMiles;
+$("goahead").onclick = selection;*/
